@@ -1,0 +1,65 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: darkblue;
+    margin: 10px;
+  }
+  
+  .table {
+    border: darkblue;
+    border: 2px solid;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    /*align-items: start;*/
+    /*justify-content: start;*/
+  }
+  .name{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .quote {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .container {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 12px;
+    padding-left: 35px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+  
+  .information {
+    padding-left: 35px;
+  }
+  
+  .hobby{
+    margin-top: 20px;
+    /*margin-bottom: 35px;*/
+  }
+  
+  .teamwork {
+    margin-top: 20px;
+  }
+  
+  .story {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
